@@ -27,7 +27,7 @@ body {
 }
 
 .methodology {
-    font-family: 'Mariweather', Arial, Helvetica, sans-serif ;
+    font-family: Arial, Helvetica, sans-serif ;
     font-size: 12px;
     max-width: 50rem;
     margin: 2rem auto; vertical margin and horizontal margin
@@ -65,7 +65,7 @@ h4 {
     }
 
     p {
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: Times, serif, Helvetica, sans-serif;
         line-height: 1.75em;
         margin: 0;
         padding: 0;
@@ -123,9 +123,9 @@ em {
     margin-top: 2px;
     padding-left: 5px;
     padding-right: 20px;
-    font-family: 'Mariweather', Arial, Helvetica, sans-serif ;
+    font-family: Arial, Helvetica, sans-serif ;
     text-align: justify;
-    font-size: 9pt;
+    font-size: 10pt;
 }
 
      
@@ -145,6 +145,15 @@ hr {
 q {
     quotes: "“" "”";
     font-size: 2rem;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+img {
+  border: 5px solid #0000;
 }
 
 #scrolly {
@@ -190,6 +199,11 @@ q {
   }
 
   .hidden { visibility: hidden; }
+
+  .altairChart {
+    width: 80%;
+    height:auto;
+  }
 
   /* When it's less than 700 pixels wide, do normal scrollytelling */
   @media only screen and (min-width: 700px) {
